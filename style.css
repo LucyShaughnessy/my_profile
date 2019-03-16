@@ -59,13 +59,13 @@ a {
 }
 .btn-purple {
 	background-color:#E2B4BD ;
-	padding:0px;
+	padding:10px 5px;
 	color: white;
 	border-radius: 5px;
 	font-size:20px; 
 }
-.btn-purple {
-
+.btn-purple:hover {
+	background-color:#861657
 }
 
 @media (max-width:900px) {
