@@ -2,7 +2,7 @@ h1 {
 font-family: 'Roboto Slab';
 font-size: 48px;
 font-weight: 700;
-color: #310A31;
+color: #861657;
 
 }
 
@@ -10,32 +10,62 @@ h2, a {
 font-family: 'Roboto Slab';
 font-size:32px;
 font-weight: 400;
-color: #310A31;
+color: #861657;
 
 }
 
 body {
 font-family: 'Slabo 27px';
 font-size:16px;
-background-color: #F4ECD6;
+background-color: #F4F4ED;
 text-align: center;
 
 
 }
+a {
+	text-decoration: none;
+}
+
 .card-white {
 	background-color: white;
 	padding:50px;
 	margin: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px #E7DECD;
 }
 .container {
 	width: 900px;
-	margin: 30px;
+	margin: 30px auto;
 
 }
 .img-circle {
 	width: 200px;
 	height:200px;
 	border-radius:50%; 
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+}
+.list-inline i {
+	color:#E2B4BD;
+	padding:0px;
+	font-size: 48px;
+	margin: 10px;
+}
+.btn-purple {
+	background-color:#E2B4BD ;
+	padding:0px;
+	color: white;
+	border-radius: 5px;
+	font-size:20px; 
+}
+.btn-purple {
+
 }
 
 @media (max-width:900px) {
