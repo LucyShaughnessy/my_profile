@@ -1,0 +1,57 @@
+h1 {
+font-family: 'Roboto Slab';
+font-size: 48px;
+font-weight: 700;
+color: #310A31;
+
+}
+
+h2, a {
+font-family: 'Roboto Slab';
+font-size:32px;
+font-weight: 400;
+color: #310A31;
+
+}
+
+body {
+font-family: 'Slabo 27px';
+font-size:16px;
+background-color: #F4ECD6;
+text-align: center;
+
+
+}
+.card-white {
+	background-color: white;
+	padding:50px;
+	margin: 15px;
+}
+.container {
+	width: 900px;
+	margin: 30px;
+
+}
+.img-circle {
+	width: 200px;
+	height:200px;
+	border-radius:50%; 
+}
+
+@media (max-width:900px) {
+	.container{
+		width:700px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		width:500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 300px;
+	}
+}
